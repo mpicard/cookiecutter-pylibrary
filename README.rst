@@ -4,23 +4,23 @@ cookiecutter-pylibrary
 
 Cookiecutter_ template for a Python python library. |travis| |appveyor|
 
-.. |travis| image:: http://img.shields.io/travis/ionelmc/cookiecutter-pylibrary/master.svg?style=flat&label=Travis
+.. |travis| image:: http://img.shields.io/travis/mpicard/cookiecutter-pylibrary/master.svg?style=flat&label=Travis
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/ionelmc/cookiecutter-pylibrary
+    :target: https://travis-ci.org/mpicard/cookiecutter-pylibrary
 
-.. |appveyor| image:: https://img.shields.io/appveyor/ci/ionelmc/cookiecutter-pylibrary/master.svg?style=flat&label=AppVeyor
+.. |appveyor| image:: https://img.shields.io/appveyor/ci/mpicard/cookiecutter-pylibrary/master.svg?style=flat&label=AppVeyor
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/ionelmc/cookiecutter-pylibrary
+    :target: https://ci.appveyor.com/project/mpicard/cookiecutter-pylibrary
 
 *Notes*:
 
 * This is largely designed to address this `blog post about packaging python
-  libraries <https://blog.ionelmc.ro/2014/05/25/python-packaging/>`_.
+  libraries <https://blog.mpicard.ro/2014/05/25/python-packaging/>`_.
 
   * ... and it will save you from `packaging pitfalls
-    <https://blog.ionelmc.ro/2014/06/25/python-packaging-pitfalls/>`_.
+    <https://blog.mpicard.ro/2014/06/25/python-packaging-pitfalls/>`_.
 * There's a bare library using this template (if you're curious about the final
-  result): https://github.com/ionelmc/python-nameless.
+  result): https://github.com/mpicard/python-nameless.
 
 .. contents:: Table of Contents
 
@@ -73,7 +73,7 @@ This template is more involved than the regular `cookiecutter-pypackage
 
 First generate your project::
 
-  cookiecutter gh:ionelmc/cookiecutter-pylibrary
+  cookiecutter gh:mpicard/cookiecutter-pylibrary
 
 You will be asked for these fields:
 
@@ -95,7 +95,7 @@ You will be asked for these fields:
     * - ``email``
       - .. code:: python
 
-            "contact@ionelmc.ro"
+            "contact@mpicard.ro"
       - Contact email of the author (used in ``AUTHORS.rst`` and ``setup.py``).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -103,7 +103,7 @@ You will be asked for these fields:
     * - ``website``
       - .. code:: python
 
-            "https://blog.ionelmc.ro"
+            "https://blog.mpicard.ro"
       - Website of the author (used in ``AUTHORS.rst``).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -111,7 +111,7 @@ You will be asked for these fields:
     * - ``github_username``
       - .. code:: python
 
-            "ionelmc"
+            "mpicard"
       - GitHub user name of this project (used for GitHub link).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -314,7 +314,7 @@ project)::
   git init .
   git add .
   git commit -m "Initial skel."
-  git remote add origin git@github.com:ionelmc/python-nameless.git
+  git remote add origin git@github.com:mpicard/python-nameless.git
   git push -u origin master
 
 Then:
@@ -394,7 +394,7 @@ Note:
 Changelog
 ---------
 
-See `CHANGELOG.rst <https://github.com/ionelmc/cookiecutter-pylibrary/blob/master/CHANGELOG.rst>`_.
+See `CHANGELOG.rst <https://github.com/mpicard/cookiecutter-pylibrary/blob/master/CHANGELOG.rst>`_.
 
 Questions & answers
 -------------------
